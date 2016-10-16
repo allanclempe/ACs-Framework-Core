@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0-*",
+  "version": "2.0.0-*",
 
 	"dependencies": {
-		"ACs.EntityFramework.Generic": "1.0.0-*",
+		"ACs.EntityFramework.Generic": "2.0.0-*",
 		"Microsoft.EntityFrameworkCore.SqlServer": "1.0.1",
 		"NETStandard.Library": "1.6.0"
 	},

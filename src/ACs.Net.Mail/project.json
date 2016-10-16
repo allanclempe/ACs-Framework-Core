@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0-*",
+  "version": "2.0.0-*",
 
 	"dependencies": {
-		"ACs.Net.Mail.Message": "1.0.0-*",
+		"ACs.Net.Mail.Message": "2.0.0-*",
 		"FluentMigrator": "1.6.2",
 		"Microsoft.Extensions.Logging": "1.0.0",
 		"NETStandard.Library": "1.6.0"

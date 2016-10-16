@@ -42,14 +42,14 @@
 				"NHibernate": "4.0.4.4000",
 				"FluentNHibernate": "2.0.3",
 				"FluentMigrator": "1.6.2",
-				"ACs.NHibernate": "1.0.0-*",
-				"ACs.Net.Mail": "1.0.0-*",
-				"ACs.Security": "1.0.0-*",
-				"ACs.Security.Jwt": "1.0.0-*",
-				"ACs.NHibernate.AspnetCore": "1.0.0-*",
-				"ACs.Angular.AspnetCore": "1.0.0-*",
-				"ACs.Misc": "1.0.0-*",
-				"ACs.ErrorHandler.AspnetCore": "1.0.0-*"
+				"ACs.NHibernate": "2.0.0-*",
+				"ACs.Net.Mail": "2.0.0-*",
+				"ACs.Security": "2.0.0-*",
+				"ACs.Security.Jwt": "2.0.0-*",
+				"ACs.NHibernate.AspnetCore": "2.0.0-*",
+				"ACs.Angular.AspnetCore": "2.0.0-*",
+				"ACs.Misc": "2.0.0-*",
+				"ACs.ErrorHandler.AspnetCore": "2.0.0-*"
 			},
 			"frameworkAssemblies": {
 				"Microsoft.CSharp": "4.0.0.0",

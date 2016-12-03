@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-*",
+	"version": "2.0.0-*",
 
 	"dependencies": {
 		"Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
@@ -8,13 +8,18 @@
 	},
 
 	"frameworks": {
-		"net451": {} ,
+		"net451": {},
 		"netstandard1.6": {
-		"imports": "dnxcore50",
-		"dependencies": {
-			"System.Xml.XmlDocument": "4.0.1",
-			"System.Xml.XmlSerializer": "4.0.11"
+			"imports": "dnxcore50",
+			"dependencies": {
+				"System.Xml.XmlDocument": "4.0.1",
+				"System.Xml.XmlSerializer": "4.0.11"
+			}
 		}
-		}
+	},
+	"scripts": {
+		"postcompile": [
+			"dotnet pack --no-build --configuration %compile:Configuration%"
+		]
 	}
 }
